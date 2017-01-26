@@ -1,0 +1,267 @@
+/*bootstrap */
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    font-size: 30px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+#mainheader {
+    background-color: #ffffff;
+    height: 90px;
+    border-bottom: 3px solid #cccccc;
+}
+
+nav {
+    text-decoration: none;
+    color: #999;
+}
+
+body, .row {
+    background-image: url("../images/wood.png");
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h2 {
+    width: auto;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.main {
+    width: 650px;
+    height: auto;
+    border-color: #dddddd;
+}
+
+#about {
+    width: 525px;
+    height: auto;
+    margin: 30px;
+    padding: 10px;
+    border-color: #dddddd;
+    background-color: white;
+}
+
+.sidebar {
+    margin-top: 30px
+    background-color: white;
+    text-align: center;
+
+}
+
+.icons {
+    width: 270px;
+    height: 160px;
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+
+}
+
+#contact {
+    width: 540px;
+    height: auto;
+    padding: 15px;
+    margin: 30px;
+    background-color: white;
+}
+
+.portfolio {
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin: 30px;
+    background-color: white;
+}
+
+#portfolio img{
+    width: 100%;
+}
+
+h3 {
+    color: white;
+    background-color: #4aaaa5;
+    text-align: center;
+}
+
+footer {
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #666666;
+    height: 90px;
+    border-top: 8px solid #4aaaa5;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+}
+
+
+
+/* my own
+
+.wrapper {
+    height: 100%
+    padding-bottom: 60px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #ffffff;
+    display: block;
+    height: 68px;
+    border-bottom: 3px solid #cccccc;
+}
+
+#header h1 {
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+h1 {
+    font-family: 'Georgia',Times,Times New Roman, serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 19px;
+    font-size: 32px;
+    margin-left: 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia',Times,Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 24px;
+    font-size: 25px;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia',Times,Times New Roman, serif;
+    border-bottom: 2px solid #cccccc;
+    padding: 18px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav {
+    float: right;
+    margin-top: 20px;
+}
+
+nav ul{
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+}
+
+.content {
+    background-image: url("../images/wood.png");
+    overflow: hidden;
+}
+
+#about, .icons, #contact, #portfolio {
+    background-color: #fff;
+}
+
+.main {
+    width: 650px;
+    height: auto;
+    border-color: #dddddd;
+    float: left;
+}
+
+#about {
+    width: 525px;
+    height: auto;
+    margin: 30px;
+    padding: 25px;
+}
+
+#about img{
+    float: left;
+    padding-top: 23px;
+    padding-right: 10px;
+}
+
+#about p {
+    padding-top: 18px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#portfolio {
+    height: 610px;
+    width: 460px;
+    padding: 20px;
+    margin: 30px;
+}
+
+#contact {
+    width: 540px;
+    height: auto;
+    padding: 25px;
+    margin: 30px;
+}
+
+#form {
+    padding-top: 30px;
+    line-height: 20px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.side {
+    width: 270px;
+    float: left;
+}
+
+.icons {
+    width: 220px;
+    height: 160px;
+    margin-top: 30px;
+}
+
+.thumb {
+    text-align: center;
+    padding: 16px;
+}
+
+p {
+    color: #777777;
+    line-height: 30px;
+}
+
+.table {
+    padding-top:20px;
+}
+
+#footer {
+    background-color: #666666;
+    height: 73px;
+    border-top: 8px solid #4aaaa5;
+}
+
+#footer p {
+    text-align: center;
+    margin-top: 22px;
+    font-size: 12px;
+    color: #777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
